@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 const host = 'https://api.club-administration.qa.qubika.com';
 const password = '12345678';
-const newUserEmail = 'hello@mail.cl';
+const newUserEmail = 'hello1@mail.cl';
 let userName : string;
 const newRootCategory = 'Category 1-1';
 const newNoRootCategory = 'Child category a'
