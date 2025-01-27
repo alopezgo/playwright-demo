@@ -1,0 +1,1 @@
+This repository demonstrates the use of Playwright for end-to-end testing. The project showcases a well-structured approach to automated testing, providing reliable and maintainable test cases for web applications.
