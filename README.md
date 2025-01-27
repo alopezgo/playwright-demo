@@ -24,25 +24,37 @@ The creation of both categories is validated by checking their appearance in the
 Follow these steps to set up and run the tests:
 
 1. Install Dependencies
+
 Ensure you have Node.js installed. Then run:
 
 `npm install`
 
 2. Install Playwright Browsers
+
 Download the necessary browsers:
+
 `npx playwright install`
 
-3. Run the Tests
+3. Before Run tests
+
+Set de email parameter for test in test-1.spec.ts, *a new mail must be enter for succed*.
+
+4. Run the Tests
+
 Execute all tests:
+
 `npx playwright test`
 
 Run tests in a specific browser:
+
 `npx playwright test --project=chromium`
 
 Run a specific test file:
+
 `npx playwright test tests/test-1.spec.ts`
 
-4. View Reports
+5. View Reports
+
 After running the tests, access the HTML report:
 
 `npx playwright show-report`
