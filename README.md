@@ -26,23 +26,23 @@ Follow these steps to set up and run the tests:
 1. Install Dependencies
 Ensure you have Node.js installed. Then run:
 
-`npm install
+`npm install`
 
 2. Install Playwright Browsers
 Download the necessary browsers:
-`npx playwright install
+`npx playwright install`
 
 3. Run the Tests
 Execute all tests:
-`npx playwright test
+`npx playwright test`
 
 Run tests in a specific browser:
-`npx playwright test --project=chromium
+`npx playwright test --project=chromium`
 
 Run a specific test file:
-`npx playwright test tests/test-1.spec.ts
+`npx playwright test tests/test-1.spec.ts`
 
 4. View Reports
 After running the tests, access the HTML report:
 
-`npx playwright show-report
+`npx playwright show-report`
